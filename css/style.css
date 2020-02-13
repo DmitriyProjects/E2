@@ -34,10 +34,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+}
+
+.populars-page{
+  width: 100%;
 }
 
 a {
@@ -45,8 +50,10 @@ a {
 }
 
 .container {
-  max-width: 1400px;
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 10px; 
 }
 
 .header {
@@ -80,6 +87,10 @@ a {
   width: 100%;
 }
 
+.content__inner{
+  width: 100%;
+}
+
 .content__header {
   width: 100%;
   padding: 41px 0 32px 2px;
@@ -96,6 +107,7 @@ a {
 }
 
 .content__header--button {
+  margin-right: 20px;
   color: #fff;
   font-size: 14px;
   padding: 11px 27px 13px 26px;
@@ -106,8 +118,9 @@ a {
 
 .content__card {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 121px;
+  flex-wrap: wrap;
 }
 
 .card {
