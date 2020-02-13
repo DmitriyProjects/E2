@@ -45,11 +45,13 @@ a {
 }
 
 .container {
-  width: 1400px;
+  max-width: 1380px;
   margin: 0 auto;
+  padding: 0 10px 0 10px;
 }
 
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 26px 0 18px 0;
@@ -76,6 +78,7 @@ a {
 }
 
 .content {
+  width: 100%;
   background-color: #f1f1f1;
 }
 
@@ -109,13 +112,14 @@ a {
 }
 
 .card {
+  width: 24%;
   font-family: 'Gotham Pro';
   box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
 }
 
 .card__office {
-  width: 335px;
-  height: 242px;
+  width: 100%;
+  min-height: 242px;
   background-image: url(../img/office.jpg);
   position: relative;
 }
@@ -216,12 +220,14 @@ a {
 }
 
 .footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 45px;
 }
 
 .footer__socials {
+  width: 20%;
   margin-left: 117px;
   margin-top: -3px;
 }
@@ -248,6 +254,7 @@ a {
 }
 
 .footer__paternity {
+  width: 20%;
   display: flex;
   align-items: center;
   margin-right: 129px;
@@ -272,8 +279,6 @@ a {
   margin-bottom: 3px;
   letter-spacing: 0.8px;
 }
-
-.footer__paternity--title_img {}
 
 .footer__socials--link--fb{
   margin: -1px 0 0 1px;
