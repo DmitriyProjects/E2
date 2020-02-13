@@ -45,13 +45,11 @@ a {
 }
 
 .container {
-  max-width: 1380px;
-  margin: 0 auto;
-  padding: 0 10px 0 10px;
+  max-width: 1400px;
+  margin: 0 auto; 
 }
 
 .header {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 26px 0 18px 0;
@@ -78,11 +76,12 @@ a {
 }
 
 .content {
-  width: 100%;
   background-color: #f1f1f1;
+  width: 100%;
 }
 
 .content__header {
+  width: 100%;
   padding: 41px 0 32px 2px;
   display: flex;
   justify-content: space-between;
@@ -112,7 +111,7 @@ a {
 }
 
 .card {
-  width: 24%;
+  width: 335px;
   font-family: 'Gotham Pro';
   box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
 }
@@ -167,7 +166,7 @@ a {
 }
 
 .info {
-  width: 335px;
+  max-width: 335px;
   height: 98px;
   background-color: #fff;
 }
@@ -227,7 +226,6 @@ a {
 }
 
 .footer__socials {
-  width: 20%;
   margin-left: 117px;
   margin-top: -3px;
 }
@@ -254,7 +252,6 @@ a {
 }
 
 .footer__paternity {
-  width: 20%;
   display: flex;
   align-items: center;
   margin-right: 129px;
