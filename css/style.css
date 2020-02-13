@@ -41,7 +41,7 @@ body {
   font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
 }
 
-.populars-page{
+.populars-page {
   width: 100%;
 }
 
@@ -53,7 +53,7 @@ a {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
-  padding: 0 10px; 
+  padding: 0 10px;
 }
 
 .header {
@@ -87,7 +87,7 @@ a {
   width: 100%;
 }
 
-.content__inner{
+.content__inner {
   width: 100%;
 }
 
@@ -136,7 +136,7 @@ a {
   position: relative;
 }
 
-.card__office--label{
+.card__office--label {
   display: inline-flex;
   color: #48494a;
   font-family: 'Gotham Pro';
@@ -290,23 +290,26 @@ a {
   letter-spacing: 0.8px;
 }
 
-.footer__socials--link--fb{
+.footer__socials--link--fb {
   margin: -1px 0 0 1px;
 }
-.footer__socials--link--tw{
-  margin: 0 0 0 31px;  
-}
-.footer__socials--link--yt{
-  margin: -2px 0 0 29px;    
-}
-.footer__socials--link--in{
-  margin: -2px 0 0 33px;  
+
+.footer__socials--link--tw {
+  margin: 0 0 0 31px;
 }
 
-.card:nth-child(2){
+.footer__socials--link--yt {
+  margin: -2px 0 0 29px;
+}
+
+.footer__socials--link--in {
+  margin: -2px 0 0 33px;
+}
+
+.card:nth-child(2) {
   margin: 0 0 0 2px;
 }
 
-.menu__item--link:nth-child(1){
+.menu__item--link:nth-child(1) {
   margin: 0 2px 0 -1px;
 }
